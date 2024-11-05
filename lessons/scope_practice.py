@@ -14,10 +14,11 @@ def remove_chars(msg: str, char: str) -> str:
         index += 1  # index = index + 1
     return copy
 
-if __name__== "__main__":
-# create a varaible called word with value "yoyo"
-word: str = "yoyo"  # GLOBAL variable
-# print the result of calling your function with arguments word and "y"
-print(remove_chars(msg=word, char="y"))  # with keyword arguments
-# print the result of calling your function with arguments word and "o"
-print(remove_chars(word, "o"))  # with postional arguments
+
+if __name__ == "main":
+    # create a varaible called word with value "yoyo"
+    word: str = "yoyo"  # GLOBAL variable
+    # print the result of calling your function with arguments word and "y"
+    print(remove_chars(msg=word, char="y"))  # with keyword arguments
+    # print the result of calling your function with arguments word and "o"
+    print(remove_chars(word, "o"))  # with postional arguments
